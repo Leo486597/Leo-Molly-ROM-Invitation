@@ -1,0 +1,15 @@
+.content-wrapper {
+}
+
+.invitation-card {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invitation-front {
+}
+
+.invitation-footer {
+  margin-top: 80px;
+}

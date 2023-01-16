@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: "Montserrat", sans-serif;
+  z-index: 2;
+}
+
+img {
+  pointer-events: none;
+}
+
+a:link {
+  /* text-decoration: none; */
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+/* features */
+
+.content-wrapper {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+.reminder-wrapper {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    text-align: center;
+    z-index: 2;
+}
+/* 
+.dinner-form-link {
+  display: flex;
+  width: 100%;
+  margin: 8px;
+}
+
+.dinner-form-link > span {
+  color: #976b8a;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dinner-form-link-en  a{
+    font-weight: 800;
+  }
+
+.location-wrapper {
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  z-index: 2;
+}
+
+.location-wrapper > a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reminder-wrapper {
+
+} */

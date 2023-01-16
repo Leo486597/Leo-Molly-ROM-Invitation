@@ -1,0 +1,17 @@
+
+.invitation-card {
+  /* height: 100vh; */
+  /* width: auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invitation-front {
+}
+
+.invitation-footer {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+

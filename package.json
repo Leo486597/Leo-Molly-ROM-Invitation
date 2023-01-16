@@ -1,0 +1,19 @@
+{
+  "name": "rom-invitation",
+  "version": "1.0.0",
+  "description": "Leo & Molly ROM invitation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoJiFu/rom-ceremony-invitation.git"
+  },
+  "author": "Leo & Molly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoJiFu/rom-ceremony-invitation/issues"
+  },
+  "homepage": "https://github.com/LeoJiFu/rom-ceremony-invitation#readme"
+}
