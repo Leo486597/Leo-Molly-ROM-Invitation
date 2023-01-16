@@ -4,7 +4,7 @@ body {
   margin: 0px;
 
   font-family: "Montserrat", sans-serif;
-  z-index: 2;
+  color: #966b86;
 }
 
 img {
@@ -15,56 +15,52 @@ a:link {
   /* text-decoration: none; */
 }
 
+a {
+  color: #966b86;
+}
+
 .icon {
-    height: 16px;
-    width: 16px;
-    margin-right: 4px;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.icon.location {
+  transform: translateY(10px);
 }
 
 /* features */
 
 .content-wrapper {
-  max-width: 100vw;
-  max-height: 100vh;
-  overflow-x: hidden;
+  /* max-width: 100vw; */
+  /* max-height: 100vh; */
+  /* overflow-x: hidden; */
 }
 
 .reminder-wrapper {
-    position: absolute;
-    bottom: 40px;
-    display: block;
-    text-align: center;
-    z-index: 2;
+  position: absolute;
+  bottom: 40px;
+  display: block;
+  text-align: center;
 }
-/* 
+
 .dinner-form-link {
-  display: flex;
-  width: 100%;
   margin: 8px;
+  text-align: center;
 }
 
-.dinner-form-link > span {
-  color: #976b8a;
-  margin-left: auto;
-  margin-right: auto;
+.dinner-form-link a {
+  font-weight: 800;
 }
 
-.dinner-form-link-en  a{
-    font-weight: 800;
-  }
+.invitation-footer {
+}
 
 .location-wrapper {
-  display: flex;
-  position: absolute;
-  bottom: 80px;
-  z-index: 2;
+  margin-top: 32px;
+  text-align: center;
 }
 
-.location-wrapper > a {
-  margin-left: auto;
-  margin-right: auto;
+.invitation-time {
+  margin-top: 16px;
 }
-
-.reminder-wrapper {
-
-} */
