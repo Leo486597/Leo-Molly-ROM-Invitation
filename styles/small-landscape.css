@@ -16,8 +16,8 @@
 }
 
 .invitation-footer {
-  position: absolute;
-  max-width: 600px;
-  bottom: 0px;
-  z-index: -1;
+  /* position: absolute; */
+  /* max-width: 600px; */
+  /* bottom: 0px; */
+  /* z-index: -1; */
 }

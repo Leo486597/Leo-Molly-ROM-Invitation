@@ -4,7 +4,6 @@ body {
   margin: 0px;
 
   font-family: "Montserrat", sans-serif;
-  color: #966b86;
 }
 
 img {
@@ -16,7 +15,8 @@ a:link {
 }
 
 a {
-  color: #966b86;
+  /* color: #966b86; */
+  color: black;
 }
 
 .icon {
@@ -37,6 +37,15 @@ a {
   /* overflow-x: hidden; */
 }
 
+.rom-invitation{
+    text-align: center;
+    transform: translateY(-20px);
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+
+
 .reminder-wrapper {
   position: absolute;
   bottom: 40px;
@@ -50,7 +59,7 @@ a {
 }
 
 .dinner-form-link a {
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .invitation-footer {
@@ -64,3 +73,7 @@ a {
 .invitation-time {
   margin-top: 16px;
 }
+
+/* .invitation-front img{
+    transform: translateY(-50px);
+} */
