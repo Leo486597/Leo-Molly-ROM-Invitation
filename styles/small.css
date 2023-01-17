@@ -1,4 +1,8 @@
 
+a {
+  font-size: small;
+}
+
 .invitation-card {
   /* height: 100vh; */
   /* width: auto; */
@@ -10,8 +14,32 @@
 }
 
 .invitation-footer {
-  /* position: absolute;
-  bottom: 0px;
-  z-index: 1; */
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 
+.rom-invitation{
+  text-align: center;
+  transform: translateY(-18px);
+}
+
+
+.rom-invitation > span{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.location-wrapper a {
+  /* font-weight: 800; */
+  z-index: 2;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+
+.invitation-time {
+  margin-top: 24px;
+}
