@@ -56,6 +56,7 @@ a {
 .dinner-form-link {
   margin: 8px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .dinner-form-link a {
@@ -66,8 +67,16 @@ a {
 }
 
 .location-wrapper {
-  margin-top: 32px;
+  margin-top: 24px;
   text-align: center;
+  text-transform: uppercase;
+  transform:  translateY(36px);
+}
+
+.location-wrapper a {
+  /* font-weight: 800; */
+  text-decoration: none;
+  letter-spacing: 1.5px;
 }
 
 .invitation-time {
