@@ -39,10 +39,17 @@ a {
   font-weight: 600;
 }
 
+.location-wrapper {
+  position: absolute;
+  bottom: 110px;
+  width: 100%;
+}
+
 .location-wrapper a {
   /* font-weight: 800; */
   z-index: 2;
   text-decoration: none;
+  text-align: center;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.2px;
